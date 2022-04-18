@@ -3,12 +3,10 @@ import EmailForm from '../emailForm/EmailForm';
 import './layout.css'
 const Layout = () => {
   return (
-    <>
-      <div className='layout'>
+    <div className='layout'>
+      <div className='grid'>
         <div className='info-container'>
           <h1>Julian Garcia-Hernandez</h1>
-          <h2>Computer Science Student</h2>
-          <h3>UNT 2023</h3>
           <nav className='info-links'>
             <ul>
               <li><a href="#">My Story</a></li>
@@ -19,7 +17,7 @@ const Layout = () => {
         </div>
       </div>
       <EmailForm />
-    </>
+    </div>
   )
 }
 

@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 .layout {
     display: grid;
     grid-template-columns: 100%;
 }
 
 .info-container {
+    font-family: 'Istok Web', sans-serif;
     display: flex;
     color: white;
     flex-direction: column;
     align-items: center;
+}
+
+.info-container h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+}
+.info-container ul {
+    font-size: 1.5rem;
 }
 
 .info-links ul {
