@@ -1,1 +1,17 @@
-.emailForm {}
+.emailForm-container {
+    display: flex;
+    justify-content: center;
+}
+.emailForm {
+    display: flex;
+    width: 40%;
+    max-width: 30rem;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.emailForm input, textarea {
+    border-radius: 0;
+    border-width: 0;
+    padding: 5px
+}
