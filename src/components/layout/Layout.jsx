@@ -1,21 +1,18 @@
 import React from 'react'
 import EmailForm from '../emailForm/EmailForm';
+import Navlinks from '../navlinks/Navlinks';
+import About from '../about/About';
+import Socials from '../socials/Socials';
 import './layout.css'
 const Layout = () => {
   return (
     <div className='layout'>
-      <div className='grid'>
-        <div className='info-container'>
-          <h1>Julian Garcia-Hernandez</h1>
-          <nav className='info-links'>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Socials</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+      <div className='header-container'>
+        <h1 className='my-name'>Julian Garcia-Hernandez</h1>
+        <Navlinks />
       </div>
+      <About />
+      <Socials />
       <EmailForm />
     </div>
   )
