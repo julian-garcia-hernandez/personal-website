@@ -9,9 +9,9 @@ const Layout = () => {
           <h1>Julian Garcia-Hernandez</h1>
           <nav className='info-links'>
             <ul>
-              <li><a href="#">My Story</a></li>
-              <li><a href="#">My Interests</a></li>
+              <li><a href="#">About</a></li>
               <li><a href="#">Socials</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
