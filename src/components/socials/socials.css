@@ -1,0 +1,7 @@
+.socials-links {
+    justify-content: center;
+}
+.socials-links ul {
+    display: flex;
+    gap: 1rem;
+}
