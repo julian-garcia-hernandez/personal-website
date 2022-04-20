@@ -3,6 +3,7 @@ import EmailForm from '../emailForm/EmailForm';
 import Navlinks from '../navlinks/Navlinks';
 import About from '../about/About';
 import Socials from '../socials/Socials';
+import Resume from '../resume/Resume';
 import './layout.css'
 const Layout = () => {
   return (
@@ -11,9 +12,16 @@ const Layout = () => {
         <h1 className='my-name'>Julian Garcia-Hernandez</h1>
         <Navlinks />
       </div>
-      <About />
-      <Socials />
-      <EmailForm />
+      <div className='body-container'>
+        <h2>About</h2>
+        <About />
+        <h2>Resume</h2>
+        <Resume />
+        <h2>Socials</h2>
+        <Socials />
+        <h2>Contact</h2>
+        <EmailForm />
+      </div>
     </div>
   )
 }
