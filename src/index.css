@@ -28,7 +28,12 @@ h3 {
 p { margin: 0; }
 
 a {
+  color: var(--color-orange);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-yellow);
 }
 
 ul {
