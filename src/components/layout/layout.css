@@ -9,10 +9,20 @@
 }
 
 .my-name {
+    color: var(--color-yellow);
     font-size: xx-large;
     font-weight: lighter;
     line-height: 4rem;
 }
-.header-container ul {
-    font-size: large;
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: var(--color-yellow);
 }
