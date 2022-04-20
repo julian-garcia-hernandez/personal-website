@@ -1,7 +1,6 @@
-.socials-links {
-    justify-content: center;
-}
 .socials-links ul {
     display: flex;
+    font-size: large;
+    justify-content: center;
     gap: 1rem;
 }
