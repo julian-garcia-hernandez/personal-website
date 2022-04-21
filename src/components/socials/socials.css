@@ -1,6 +1,6 @@
 .socials-links ul {
     display: flex;
-    font-size: large;
+    font-size: medium;
     justify-content: center;
     gap: 1rem;
 }
