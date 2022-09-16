@@ -12,10 +12,9 @@
 
 .emailForm input, textarea {
     border-radius: 0;
-    border-width: 1;
-    border-color: var(--color-orange);
+    border-width: 1px;
+    border-color: var(--color-black);
     padding: 5px;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 .btn-submit {

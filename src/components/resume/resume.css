@@ -1,9 +1,9 @@
 h3 {
-    color: var(--color-blue);
+    color: var(--color-black);
     font-weight: lighter;
     font-size: 1.5rem;
 }
 ul {
     font-size: 1.25rem;
-    color: white;
+    color: var(--color-black);
 }

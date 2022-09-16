@@ -1,9 +1,12 @@
 :root {
   --color-yellow: #FCD900;
   --color-orange: #E8630A;
-  --color-blue: #76acdc;
+  --color-blue: #76ACDC;
   --color-dk-blue: #001E6C;
-  background-color: var(--color-dk-blue);
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  background-color: var(--color-white);
 }
 
 * {
@@ -28,7 +31,7 @@ h3 {
 p { margin: 0; }
 
 a {
-  color: var(--color-orange);
+  color: var(--color-black);
   text-decoration: none;
 }
 
