@@ -15,6 +15,8 @@ const Resume = () => {
       <ul>
         <li>C++</li>
         <li>C</li>
+        <li>C#</li>
+        <li>.NET</li>
         <li>Python</li>
         <li>React</li>
         <li>C++</li>
